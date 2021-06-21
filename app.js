@@ -70,7 +70,7 @@ app.post("/compose", function(req, res){
             content: pContent
         }
     );
-    console.log(post);
+    //console.log(post);
     post.save((err)=>{
         if(!err){
             res.redirect("/");
